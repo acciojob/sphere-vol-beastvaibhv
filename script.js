@@ -4,7 +4,7 @@ const radius = parseFloat(document.getElementById("radius").value);
 	const volume = (4* Math.PI * radius ** 3)/3;
 
   const vol = document.getElementById("volume");
-	vol.value = volume;
+	vol.value = volume.toFixed(4);
 	return;
 } 
 const ans = document.getElementById("submit");
